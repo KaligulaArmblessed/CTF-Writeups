@@ -1,4 +1,4 @@
-## Retrosynthesis
+## Retrosynthesis (idekCTF 2021 :D)
 
 #### TLDR
 Disassembling the binary will show that each of the "reagents" is tied to a function, which performs a specific mathematical operation with certain numbers as specified in the functions. The "reaction" proceeds as the starting material (also a number) undergoes these operations depending on whether the functions are activated. In order to synthesize the "final product", cubane (in this case, also a number), the correct operations have to be activated. This can be done by patching the binary (e.g. using radare2). The functions that have to be activated to generate the final product are: NBS, Diels-Alder, SOCl2, Favorskii. 
