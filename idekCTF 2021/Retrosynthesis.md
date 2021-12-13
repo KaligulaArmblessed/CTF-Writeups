@@ -236,7 +236,7 @@ Knowing how these functions work, you can do a little bit of math and figure out
 
 #### The Chem Way :D
 This method is much, much easier than the Math one. All you need to do is to Google the synthesis of Cubane (can be found at https://www.synarchive.com/syn/14 -- SynArchive is basically Exploit-DB for Chemists). 
-![alt text]()
+![alt text](https://github.com/KaligulaSec/CTF-Writeups/blob/main/idekCTF%202021/Cubane.png?raw=true)
 
 Simply by looking at the synthesis, we can figure out that NBS, Diels-Alder reaction, SOCl2 and Favorskii reaction are needed to make Cubane. 
 
